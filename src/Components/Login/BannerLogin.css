@@ -1,0 +1,74 @@
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+}
+
+.login-section{
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 680px;
+    padding-right: 60px;
+}
+.buttonlog{
+    padding: 5px;
+}
+.buttonsign{
+    padding: 5px;
+}
+
+.foodlogbg{
+    position: absolute;
+   
+    right: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size:contain;
+    background-position: 100%;
+    top: 0;
+    background-color: hsla(26,5%,70%,.2);
+}
+
+.cities{
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+    justify-content:flex-start;
+    
+    
+    
+ 
+}
+
+li{
+    padding: 10px;
+    margin-right: 10px
+
+
+}
+
+
+#first-banner {
+    position: relative;
+    margin-top: 10px;
+ }
+
+ #mainsection{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 ;
+    height: 540px;
+ }
+
+ .searchbar{
+    display: flex;
+    position: relative;
+    margin-top: 35px;
+ }
+
+ #button-addon2{
+    background-color: rgb(205, 30, 10);
+ }
