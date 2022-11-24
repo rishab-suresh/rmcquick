@@ -25,11 +25,11 @@ function CollapsibleExample(){
 
 						<Nav.Link href="#pricing">Cart</Nav.Link>
 
-						<Button variant="link" className='Sign-up Button ' onClick={handleShow}>
+						<Button variant="btn btn-outline-light" className='Sign-up Button' onClick={handleShow}>
 							Login/Sign Up
 						</Button>
 
-						<Offcanvas show={show} placement='end' onHide={handleClose}>
+						<Offcanvas  show={show} placement='end' onHide={handleClose}>
 							<Offcanvas.Header closeButton>
 								<Offcanvas.Title>Login/Sign Up</Offcanvas.Title>
 							</Offcanvas.Header>

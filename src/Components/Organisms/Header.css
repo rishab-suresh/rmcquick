@@ -7,6 +7,14 @@ header {
 	background-color: var(--mainColor);
 	color: var(--textColor);
 }
+.Sign-up Button{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.ms-auto{
+	padding: 5px;
+}
 
 nav a {
 	margin: 0 1rem;

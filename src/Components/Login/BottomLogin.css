@@ -1,0 +1,37 @@
+.Bottombody{
+    padding: 0 20px;
+    height: 570px;
+    overflow: hidden;
+}
+
+.OneLinerpictures{
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Heading-oneliner{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 1;
+    letter-spacing: -.45px;
+}
+
+.description{
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 1.2;
+}
