@@ -1,0 +1,168 @@
+.nDVxx {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+._1w2w1, ._2BkKe {
+    position: relative;
+}
+
+
+._1w2w1 {
+    padding: 0 20px;
+    background: #37718e;
+    min-height: 100vh;
+}
+
+._2BkKe {
+    padding-top: 33px;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+._3MXWN {
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+    animation: _2NB4Z .2s ease;
+}
+
+._1-rIX {
+    background: #35728a;
+    box-shadow: none;
+}
+
+._3ANBe {
+    padding: 0 20px
+px
+;
+    width: 100vw;
+    height: 80px;
+    
+    display: flex;
+
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 3;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+}
+
+._1-rIX ._2G5fZ {
+    color: #fff;
+}
+
+._2G5fZ {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+._2VR4Z {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.-dIwe {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+._3qvHl {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.hIrua {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.DCrYO {
+    border: 1px solid hsla(0,0%,100%,.6);
+    padding: 12px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;   
+    
+}
+._3VLw2 {
+    float: right;
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+}
+
+._3RkS- {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+._1dvXz {
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+._2nhlW {
+    margin-left: 15px;
+}
+._3tDvm {
+   
+        background: #fff;
+        contain: layout;
+ 
+}
+
+.v6luz {
+    width: calc(((100vw - 1300px) / 2) + 2px);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 1px;
+    opacity: 0;
+    z-index: 1;
+    will-change: opacity;
+    transition: opacity .3s ease;
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+._3glSS {
+    padding-top: 50px!important;
+    padding-bottom: 50px!important;
+}
+
+._2QhOV {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    contain: layout;
+}
+
+._3R9IF {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+._2gu8R {
+    min-width: 260px;
+    background: #edf1f7;
+}

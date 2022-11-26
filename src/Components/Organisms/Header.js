@@ -4,8 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { FaReact } from 'react-icons/fa';
-
+import { FaHandsHelping, FaReact } from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import { MdManageAccounts } from "react-icons/md";
 function CollapsibleExample(){
 
 	const [show, setShow] = useState(false);
@@ -18,16 +20,14 @@ function CollapsibleExample(){
 				<Navbar.Brand href="#home"><FaReact />RMCQuick</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="ms-auto">
-						<Nav.Link href="#features">Search</Nav.Link>
-						<Nav.Link href="#pricing">Help</Nav.Link>
-						<Nav.Link href="#pricing">Offers</Nav.Link>
+					<Nav className="ms-auto links">
+						<Nav.Link href="#Search" > <i><FaSearch/></i>Search</Nav.Link>
+						<Nav.Link href="#Help"><Link to='/Help'> <i><FaHandsHelping/></i> Help </Link></Nav.Link>
+						<Nav.Link href="#Offers"><Link to='/Offers'> Offers </Link></Nav.Link>
 
 						<Nav.Link href="#pricing">Cart</Nav.Link>
 
-						<Button variant="btn btn-outline-light" className='Sign-up Button' onClick={handleShow}>
-							Login/Sign Up
-						</Button>
+						<Button variant="btn btn-outline-light" className='Sign-up Button' onClick={handleShow}> <i> <MdManageAccounts/></i>User </Button>
 
 						<Offcanvas  show={show} placement='end' onHide={handleClose}>
 							<Offcanvas.Header closeButton>

@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/odh45j5wztvhsmu5gasc",
+        "name":"Paakashala",
+        "category":"Chinese,North Indian, South Indian",
+        "rating": "5",
+        "distance":"28min",
+        "price": "500 for two"
+        
+    }
+]

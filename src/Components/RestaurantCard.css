@@ -1,0 +1,43 @@
+.card{
+    padding: 20px 20px 57px;
+    border: 1px solid rgb(255, 255, 255);
+    contain: content;
+}
+
+.img-food{
+    background: #eef0f5;
+    width: 240px !important;
+    height: 160px;
+    position: relative;
+
+}
+.body{
+    margin-top: 14px;
+
+}
+.title{
+    font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+}
+.text{
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#bottom-card-description{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.spacing{
+    font-weight: bold;
+}
+
+.info{
+    padding: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
